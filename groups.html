@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Study groups</h2>
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Course</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Size</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for group in site.data.groups %}
+            <tr>
+                <td>
+                    {{ group.course }}
+                </td>
+                <td>
+                    {{ group.time }}
+                </td>
+                <td>
+                    {{ group.location }}
+                </td>
+                <td>
+                    {{ group.size }}
+                </td>
+                <td>
+                    <div class="btn-group">
+                        <a class="btn btn-mini btn-primary" href="">
+                            <i class="icon-eye-open"></i> view
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div> <!-- /container -->

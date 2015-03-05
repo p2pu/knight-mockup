@@ -1,0 +1,20 @@
+[
+ {
+     "course": "Introduction to programming",
+     "time": "Mondays at 6pm",
+     "location": "CPL Edgewood",
+     "size": 10
+ },
+ {
+     "course": "Introduction to programming",
+     "time": "Wednesdays at 18h00",
+     "location": "CPL Edgewood",
+     "size": 5
+ }, 
+ {
+     "course": "Spreadsheet foo",
+     "time": "Tuesdays at 17h30 pm",
+     "location": "CPL central branch",
+     "size": 10
+ }
+]
