@@ -1,20 +1,26 @@
 [
  {
-     "course": "Introduction to programming",
+     "course": "Programming for Everybody",
      "time": "Mondays at 6pm",
      "location": "CPL Edgewood",
      "size": 10
  },
  {
-     "course": "Introduction to programming",
+     "course": "Programming for Everybody",
      "time": "Wednesdays at 18h00",
      "location": "CPL Edgewood",
      "size": 5
  }, 
  {
-     "course": "Spreadsheet foo",
+     "course": "Managing My Investments",
      "time": "Tuesdays at 17h30 pm",
      "location": "CPL central branch",
      "size": 10
- }
+ },
+ {
+     "course": "Job Interview Skills Training Course",
+     "time": "Tuesdays at 17h30 pm",
+     "location": "CPL central branch",
+     "size": 7
+ },
 ]
