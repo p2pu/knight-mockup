@@ -1,1 +1,4 @@
 baseurl: /knight-mockup
+collections:
+    courses:
+        output: true

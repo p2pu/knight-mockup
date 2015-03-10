@@ -19,6 +19,19 @@ layout: default
         </div>
       </div>
       <div class="row">
+        {% for course in site.courses %}
+        <div class="col-md-4">
+          <h2>{{course.title}}</h2>
+          <p>{{course.description}}</p>
+          <p><i class="glyphicon glyphicon-map-marker"></i> at the Chicaco Public Library Edgewood</p>
+          <p><i class="glyphicon glyphicon-calendar"></i> Study group meet every Tuesdays at 6pm</p>
+          <p>Course starts 9 June 2015</p>
+          <p><a class="btn btn-default" href="{{site.baseurl}}{{course.url}}" role="button">View details &raquo;</a></p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!--div class="row">
         <div class="col-md-4">
           <h2>Programming for Everybody</h2>
           <p>Learn the basics of programming using Python. You don't need to know anything to take this course!</p>
@@ -41,7 +54,8 @@ layout: default
           <p><i class="glyphicon glyphicon-calendar"></i> Study group meet every Tuesdays at 6pm</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-      </div>
+      </div-->
+
       <div class="row">
         <div class="col-md-12">
           <h1>Attend an info session</h1>

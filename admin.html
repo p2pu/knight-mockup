@@ -60,7 +60,7 @@ layout: default
         </tr>
         </thead>
         <tbody>
-        {% for course in site.data.courses %}
+        {% for course in site.courses %}
             <tr>
                 <td>
                     {{ course.title }}
@@ -76,7 +76,7 @@ layout: default
                 </td>
                 <td>
                     <div class="btn-group">
-                        <a class="btn btn-mini btn-primary" href="">view course</a>
+                      <a class="btn btn-mini btn-primary" href="{{site.baseurl}}{{course.url}}">view course</a>
                     </div>
                 </td>
             </tr>

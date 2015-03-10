@@ -11,7 +11,7 @@ layout: default
         <div class="form-group">
           <label for="nameInput">Course</label>
           <select class="form-control">
-            {% for course in site.data.courses %}
+            {% for course in site.courses %}
               <option>{{course.title}}</option>
             {% endfor %}
           </select>
