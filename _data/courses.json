@@ -4,5 +4,17 @@
         "duration": "6 weeks",
         "provider": "Coursera",
         "license": "CC-BY-SA"
+    },
+    {
+        "title": "Job Interview Skills Training",
+        "duration": "2 weeks",
+        "provider": "Coursera",
+        "license": "CC-BY-0"
+    },
+    {
+        "title": "Managing My Investments",
+        "duration": "4 weeks",
+        "provider": "EdX",
+        "license": "??"
     }
 ]
